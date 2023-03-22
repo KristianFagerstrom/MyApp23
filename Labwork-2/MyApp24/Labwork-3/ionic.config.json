@@ -1,5 +1,7 @@
 {
-  "name": "ionic-app-base",
-  "integrations": {},
+  "name": "Labwork-3",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }
