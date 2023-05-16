@@ -1,8 +1,9 @@
 .todo {
     display: flex;
-    padding: 10px 15px;
-    background-color: #fff;
+    padding: 10px  15px;
+    background-color: #02b3ff;
     border-bottom: 1px solid #383838;
+
 
     .id {
         flex: 1 1 50px;
@@ -19,7 +20,8 @@
 
 
 .todo:nth-child(even) {
-    background-color: #EEE;
+    background-color: #02b3ff;
+
 }
 
 .todo:last-of-type {
@@ -34,9 +36,10 @@
     display: block;
     width: 100%;
     padding: 10px 15px;
+
     appearance: none;
     border: none;
-    background-color: #f3f3f3;
+    background-color: #000000;
     margin-top: 15px;
     font-size: 20px;
     outline: none;
@@ -56,6 +59,7 @@
     margin: 15px auto;
 
     padding: 10px 15px;
+
     font-size: 18px;
     font-weight: 700;
 }
