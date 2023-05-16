@@ -3,14 +3,14 @@
     <ion-input
     type="text"
     name="inputTodo"
-    placeholder="enterTodo"
+    placeholder="some words"
     class="todo-input"
     [(ngModel)]="inputTodo"/>
-    <ion-input type="submit" value="Add Todo" class="todo-submit"/>
+    <ion-input type="submit" value="Create a new task" class="todo-submit"/>
   </form>
   <div *ngFor="let todo of todos; let i = index;" class="todo {{ todo.completed ? 'done' : '' }}">
     <div class="id">{{ i }}</div>
     <div class="content" (click)="toggleDone(i)">{{ todo.content }}</div>
-    <ion-button (click)="deleteTodo(i)" color="danger" class="delete"><ion-icon name="trash"></ion-icon></ion-button>
+    <ion-button (click)="deleteTodo(i)" color="success" class="delete"><ion-icon name="trash"></ion-icon></ion-button>
   </div>
 </ion-content>

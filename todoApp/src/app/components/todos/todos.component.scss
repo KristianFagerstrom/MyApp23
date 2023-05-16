@@ -35,8 +35,7 @@
 .todo-input {
     display: block;
     width: 100%;
-    padding: 10px 15px;
-
+    padding: 20px 0px 15px 15px;
     appearance: none;
     border: none;
     background-color: #000000;
@@ -53,14 +52,28 @@
     border: none;
     outline: none;
     background: none;
-
-    background-color: #002aff;
-    color: #fff;
+    background-color: #02b3ff;
+    color: #000000;
     margin: 15px auto;
-
+    marker-start: 30px;
     padding: 10px 15px;
 
     font-size: 18px;
     font-weight: 700;
 }
+.content{
+  color: #000000;
+}
+.native-input.sc-ion-input-md{
+ text-align: center;
 
+}
+.todo-submit[_ngcontent-ng-c1031532574]{
+  text-align: center;
+}
+.todo-input[_ngcontent-ng-c1031532574]{
+  text-align: center;
+}
+ion-header{
+  text-align: center;
+}
