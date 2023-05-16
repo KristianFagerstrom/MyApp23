@@ -1,7 +1,7 @@
 .todo {
     display: flex;
     padding: 10px  15px;
-    background-color: #02b3ff;
+    background-color: #DBE2EF;
     border-bottom: 1px solid #383838;
 
 
@@ -20,7 +20,7 @@
 
 
 .todo:nth-child(even) {
-    background-color: #02b3ff;
+    background-color: #DBE2EF;
 
 }
 
@@ -35,10 +35,11 @@
 .todo-input {
     display: block;
     width: 100%;
+    color: #000000;
     padding: 20px 0px 15px 15px;
     appearance: none;
     border: none;
-    background-color: #000000;
+    background-color: #DBE2EF;
     margin-top: 15px;
     font-size: 20px;
     outline: none;
@@ -52,7 +53,7 @@
     border: none;
     outline: none;
     background: none;
-    background-color: #02b3ff;
+    background-color: #DBE2EF;
     color: #000000;
     margin: 15px auto;
     marker-start: 30px;
@@ -72,8 +73,5 @@
   text-align: center;
 }
 .todo-input[_ngcontent-ng-c1031532574]{
-  text-align: center;
-}
-ion-header{
   text-align: center;
 }
